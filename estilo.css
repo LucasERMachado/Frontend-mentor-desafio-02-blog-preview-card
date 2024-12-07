@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'Figtree';
+    src: url('./fonts/Figtree-Italic-VariableFont_wght.ttf'), 
+    url('./fonts/Figtree-Italic-VariableFont_wght.otf');
+}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    color: #000;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid;
+    border-radius: 20px;
+    height: 650px;
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+}
+
+.container .cartao{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 450px;
+    margin-left: 10px;
+}
+
+.container .cartao .imagem-principal{
+    width: 440px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container .cartao span{
+    margin: 30px 0px;
+    background-color: hsl(47, 88%, 63%);
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.container .cartao .dia-publicacao{
+    margin-top: -15px;
+    font-weight: 500;
+}
+
+.container .cartao h1{
+    font-weight: 800;
+    margin: 20px 0;
+    font-size: 28px;
+    color: hsl(0, 0%, 7%);
+}
+
+/* the same is in active-states.jpg */
+.container .cartao h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.container .cartao .descricao{
+    color: hsl(0, 0%, 42%);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.container .cartao .greg{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .cartao .greg .imagem-greg{
+    height: 50px;
+    width: 50px;
+}
+
+.container .cartao .greg .nome{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    padding-left: 15px;
+    font-size: 16px;
+}
